@@ -1,0 +1,149 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* Hide add to cart menu from top level */
+#toplevel_page_edit-post_type-add_to_cart_cpt {
+  display: none;
+}
+
+/* Header */
+.add-to-cart-options.atc-theme-light .atc-header-inner {
+  background: #96588a;
+  border-bottom: 0;
+  padding-top: 45px;
+  padding-bottom: 0;
+}
+
+.add-to-cart-options.atc-theme-light .atc-header-inner h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Version */
+.add-to-cart-options.atc-theme-light span.atc-plugin-version {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 10px;
+  box-shadow: -5px 5px 5px -3px #0000001f;
+  color: #fff;
+}
+
+/* Help */
+.add-to-cart-options.atc-theme-light span.atc-plugin-help {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px -3px #0000001f;
+  color: #fff;
+  transition: box-shadow .3s;
+}
+.add-to-cart-options.atc-theme-light span.atc-plugin-help:hover {
+  box-shadow: 10px 10px 20px 3px #0000001f;
+}
+
+/* Nav */
+.add-to-cart-options .atc-nav {
+  width: 100%;
+  text-align: center;
+  background: #96588a;
+  padding: 50px 0;
+}
+
+.add-to-cart-options .atc-nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.add-to-cart-options .atc-content {
+  margin-left: 0;
+}
+
+.add-to-cart-options.atc-theme-light .atc-nav-background {
+  background-color: transparent !important;
+}
+
+.add-to-cart-options.atc-theme-light .atc-nav ul li a {
+  background: #96588a;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.add-to-cart-options.atc-theme-light .atc-nav>ul>li:last-child>a {
+  border-bottom: 2px solid #fff;
+}
+
+.add-to-cart-options.atc-theme-light .atc-nav ul li a:hover {
+  background: #fff;
+  color: #96588a;
+}
+
+.add-to-cart-options.atc-theme-light .atc-nav ul li .atc-section-active {
+  background: #fff;
+  color: #96588a;
+  border-radius: 50px;
+}
+
+/* OTHERS
+************************/
+/* Hide header buttons */
+.add-to-cart-options .atc-header-right {
+  display: none;
+}
+/* Header left contents move to middle */
+.add-to-cart-options .atc-header-left {
+  float: left;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+/* Subtitles */
+.add-to-cart-options .atc-text-subtitle {
+  font-style: italic;
+}
+/* Reduce typography fields width */
+.add-to-cart-options .atc-field-typography .atc--blocks-selects .atc--block {
+  flex: 1 25%;
+}
+/* Help */
+.add-to-cart-options .help-customization .clear {
+  clear: right;
+}
+.add-to-cart-options .atc-help {
+  right: unset;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: 0;
+  line-height: 28px;
+  padding: 6px;
+
+}
+
+/* Transparent placeholder text */
+.add-to-cart-options .atc-no-placeholder input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: transparent;
+}
+.add-to-cart-options .atc-no-placeholder input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: transparent;
+}
+.add-to-cart-options .atc-no-placeholder input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: transparent;
+}
+.add-to-cart-options .atc-no-placeholder input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: transparent;
+}
+.add-to-cart-options .atc-no-placeholder input::placeholder {
+  color: transparent;
+}

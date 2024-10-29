@@ -1,0 +1,18 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.loading {
+  position: relative;
+}
+
+.loading::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 50px;
+  content: "";
+  background: #000;
+}
